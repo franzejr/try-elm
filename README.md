@@ -7,6 +7,9 @@
 **Elm online editor**
 http://elm-lang.org/try
 
+**Elm Packages**
+http://package.elm-lang.org/
+
 
 **Who created Elm?**
 
