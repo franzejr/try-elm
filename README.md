@@ -10,9 +10,12 @@ http://elm-lang.org/try
 
 **Who created Elm?**
 
-Evan Czaplicki originally designed Elm as his thesis in 2012 and currently works full time on Elm at Prezi. He's a bright, friendly guy who keeps his eye on the big picture while understanding all the details. I instantly liked Evan and continue to be impressed by the care he takes with this language.
+Evan Czaplicki originally designed Elm as his thesis in 2012 and currently works full time on Elm at Prezi. He's a bright, friendly guy who keeps his eye on the big picture while understanding all the details. I instantly liked Evan and continue to be impressed by the care he takes with this language. [Elm thesis](http://elm-lang.org/papers/concurrent-frp.pdf)
 
-[Elm thesis](http://elm-lang.org/papers/concurrent-frp.pdf)
+
+**Is the HTML rendering fast?**
+
+http://elm-lang.org/blog/blazing-fast-html
 
 ### Setup
 
