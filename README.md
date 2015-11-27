@@ -17,7 +17,7 @@ Evan Czaplicki originally designed Elm as his thesis in 2012 and currently works
 
 http://elm-lang.org/blog/blazing-fast-html
 
- -> ![DOM ELM](dom-elm.png) <-
+![DOM ELM](dom-elm.png)
 
 ### Setup
 
