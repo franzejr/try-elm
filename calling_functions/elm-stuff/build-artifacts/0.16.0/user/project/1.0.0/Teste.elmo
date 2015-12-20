@@ -1,0 +1,17 @@
+Elm.Teste = Elm.Teste || {};
+Elm.Teste.make = function (_elm) {
+   "use strict";
+   _elm.Teste = _elm.Teste || {};
+   if (_elm.Teste.values) return _elm.Teste.values;
+   var _U = Elm.Native.Utils.make(_elm),
+   $Basics = Elm.Basics.make(_elm),
+   $Debug = Elm.Debug.make(_elm),
+   $Html = Elm.Html.make(_elm),
+   $List = Elm.List.make(_elm),
+   $Maybe = Elm.Maybe.make(_elm),
+   $Result = Elm.Result.make(_elm),
+   $Signal = Elm.Signal.make(_elm);
+   var _op = {};
+   var main = $Html.text("Hello, World!");
+   return _elm.Teste.values = {_op: _op,main: main};
+};
