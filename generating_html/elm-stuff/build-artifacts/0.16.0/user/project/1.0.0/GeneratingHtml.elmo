@@ -1,0 +1,27 @@
+Elm.GeneratingHtml = Elm.GeneratingHtml || {};
+Elm.GeneratingHtml.make = function (_elm) {
+   "use strict";
+   _elm.GeneratingHtml = _elm.GeneratingHtml || {};
+   if (_elm.GeneratingHtml.values) return _elm.GeneratingHtml.values;
+   var _U = Elm.Native.Utils.make(_elm),
+   $Basics = Elm.Basics.make(_elm),
+   $Debug = Elm.Debug.make(_elm),
+   $Html = Elm.Html.make(_elm),
+   $Html$Attributes = Elm.Html.Attributes.make(_elm),
+   $List = Elm.List.make(_elm),
+   $Maybe = Elm.Maybe.make(_elm),
+   $Result = Elm.Result.make(_elm),
+   $Signal = Elm.Signal.make(_elm),
+   $String = Elm.String.make(_elm);
+   var _op = {};
+   var pageFooter = A2($Html.footer,
+   _U.list([]),
+   _U.list([A2($Html.a,_U.list([$Html$Attributes.href("https://google.com")]),_U.list([$Html.text("My footter Section")]))]));
+   var title = F2(function (message,times) {
+      return $Html.text($String.trimRight(A2($String.repeat,times,$String.toUpper(A2($Basics._op["++"],message," ")))));
+   });
+   var pageHeader = A2($Html.h1,_U.list([]),_U.list([A2(title,"Generating HTML with Elm!",3)]));
+   var view = A2($Html.div,_U.list([$Html$Attributes.id("container")]),_U.list([pageHeader,pageFooter]));
+   var main = view;
+   return _elm.GeneratingHtml.values = {_op: _op,title: title,pageHeader: pageHeader,pageFooter: pageFooter,view: view,main: main};
+};

@@ -53,3 +53,4 @@ elm reactor -a=localhost -p=9000
 
 ### [Calling Functions](/calling_functions)
 ### [Defining Functions](/defining_functions)
+### [Generating HTML](/generating_html)
