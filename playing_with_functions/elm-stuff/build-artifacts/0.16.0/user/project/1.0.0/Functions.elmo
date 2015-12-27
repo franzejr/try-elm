@@ -1,0 +1,20 @@
+Elm.Functions = Elm.Functions || {};
+Elm.Functions.make = function (_elm) {
+   "use strict";
+   _elm.Functions = _elm.Functions || {};
+   if (_elm.Functions.values) return _elm.Functions.values;
+   var _U = Elm.Native.Utils.make(_elm),
+   $Basics = Elm.Basics.make(_elm),
+   $Debug = Elm.Debug.make(_elm),
+   $Graphics$Element = Elm.Graphics.Element.make(_elm),
+   $List = Elm.List.make(_elm),
+   $Maybe = Elm.Maybe.make(_elm),
+   $Result = Elm.Result.make(_elm),
+   $Signal = Elm.Signal.make(_elm);
+   var _op = {};
+   var twenty = A2($Basics.max,$Basics.sqrt(100),4 * 5);
+   var eleven = A2($Basics.max,2,11);
+   var four = $Basics.sqrt(16);
+   var main = $Graphics$Element.show(_U.list([four,eleven,twenty]));
+   return _elm.Functions.values = {_op: _op,four: four,eleven: eleven,twenty: twenty,main: main};
+};
